@@ -7,7 +7,7 @@ sudo apt-get ugrade -y
 # Essentials
 sudo apt-get install -y vim git built-essentials ubuntu-wallpapers* unity-tweak-tool
 sudo apt-get install -y ubuntu-restricted-extras flashplugin-installer
-sudo apt-get install -y unrar zip unzip
+sudo apt-get install -y unrar zip unzip dconf-tools
 
 # Chrome (Checks Processor Type)
 if [[ $(getconf LONG_BIT) = "64" ]]
