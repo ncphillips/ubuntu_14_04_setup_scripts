@@ -54,12 +54,11 @@ rmdir temp_vim
 # Directories
 mkdir ~/Projects
 sudo rm -rf ~/Music
-sudo rm -rf ~/Movies
+sudo rm -rf ~/Videos
 sudo rm -rf ~/Templates
 sudo rm -rf ~/Pictures
 
 # Remove Shotwell TODO
-
 sudo apt-get remove --purge -y thunderbird* libreoffice* rhythmbox* 
 sudo apt-get remove -y unity-webapps-common
 
